@@ -1,0 +1,234 @@
+﻿
+
+:root {
+    --green: #00ff21;
+    --black: #000000;
+}
+
+*::selection {
+    background: var(--green);
+    color: #ffffff;
+}
+
+* {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container{
+    margin-bottom:100px;
+}
+
+.header1 {
+    display: flex;
+    background: #4eb060;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+.header1 .search-box-container {
+    height: 3rem;
+    display: flex;
+ }
+
+.header1 .search-box-container #search-box {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    font size:2rem;
+    color: #808080;
+    border: .1rem solid #00ff21;
+    text-transform: none;
+}
+
+.header1 .search-box-container label {
+    height: 100%;
+    width: 8rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: aqua;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header1 .search-box-container label:hover {
+    background: var(--black);
+}
+
+.header2 {
+    display: flex;
+    background: #808080;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 10px #adabab;
+    border-radius: 10px; 
+}
+
+.header2 .navbar a {
+    padding: .5rem 1.5rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    color: var(--black);
+}
+
+.header2 .navbar a:hover {
+    background: var(--green);
+    color: #ff0000;
+}
+
+.header2 .icons a {
+    font-size: 2rem;
+    color: var(--black);
+    padding-left: 1rem;
+}
+
+.header2 .icons a:hover {
+    color: var(--green);
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+   
+}
+.categories img{
+    width:100px;
+    height:100px;
+    
+}
+.categories h3{
+    color:white;
+}
+.cat1{
+    background-color: orange;
+}
+.cat2 {
+    background-color: orchid;
+}
+.cat3 {
+    background-color: blue;
+}
+.card{
+    border:none;
+    box-shadow: 5px 5px 10px #4d4343;
+   
+}
+
+footer {
+    background-color: #1b1d1f;
+    padding: 50px 20px;
+    border-top: 5px solid #4eb060;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo a {
+        color: #ffffff;
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+}
+
+.footer-logo a span {
+            color: #4eb060;
+}
+
+.footer-social {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer-social a {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        border: 1px solid #ffffff15;
+        font-size: 0.9rem;
+        margin: 0px 5px;
+        transition: all ease 0.3s;
+}
+
+.footer-social a:hover {
+            background-color: #4eb060;
+            transition: all ease 0.3s;
+}
+
+.footer-links strong {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.footer-links ul {
+    margin-top: 10px;
+}
+
+.footer-links ul li a {
+        color: #ffffff;
+        opacity: 0.5;
+        margin: 4px 0px;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        transition: all ease 0.3s;
+}
+
+.footer-links li a:hover {
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+.container{
+    margin-bottom:100px;
+}
+/*@media(max-width:991px)
+{
+    .header1,header2{
+        padding: 2rem;
+    }
+}
+@media(max-width:768px)
+{
+   .header2 .navbar{
+    top:100%; left: 0%; right: 0%;
+    background:var(--black);
+    padding: 1rem 0;
+   }
+   .header2 .navbar a{
+       font-size: 2.5rem;
+       display: block;
+       text-align: center;
+       background: #ffffff;
+       padding: 1rem;
+       margin: 1.5rem 0;
+
+
+   }
+}*/
